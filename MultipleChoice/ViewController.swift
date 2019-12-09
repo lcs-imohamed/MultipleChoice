@@ -33,19 +33,20 @@ class ViewController: UIViewController {
         guard let correctAnswer = correctAnswerInput.text,
             correctAnswer.count > 0 else {correctStudentAnswerOutput.text = "Please enter a value."
                 return }
-                
-        }
         
-        //Create variables to count the number of correct and incorrect answers
-        var numberCorrectAnswers = 0
-        var numberWrongAnswers = 0
-        
-        for singleCharacter in studentAnswers {
-            if singleCharacter == correc {
-                
-            }
-        }
     }
+    
+    //Create variables to count the number of correct and incorrect answers
+    var numberCorrectAnswers = 0
+    var numberWrongAnswers = 0
+    
+    //Logic to check each character in the input
+    for (position, character)  in studentAnswers.enumerated() {
+        
+    }
+
+    
+    
     
     
 }
